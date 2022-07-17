@@ -23,7 +23,7 @@ With a server in staging mode, you can make changes to the configuration and pre
 ## Staging mode
 Staging mode can be used for several scenarios, including:
 
-* High availability.
+* High Availability.
 * Test and deploy new configuration changes.
 * Introduce a new server and decommission the old.
 
