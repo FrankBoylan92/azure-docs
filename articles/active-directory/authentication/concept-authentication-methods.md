@@ -63,7 +63,7 @@ The following table outlines when an authentication method can be used during a 
 
 | Method                         | Primary authentication | Secondary authentication  |
 |--------------------------------|:----------------------:|:-------------------------:|
-| Windows Hello for Business     | Yes                    | MFA\*                      |
+| Windows Hello for Business     | Yes                    | MFA                      |
 | Microsoft Authenticator app    | Yes                    | MFA and SSPR              |
 | FIDO2 security key             | Yes                    | MFA                       |
 | Certificate-based authentication (preview) | Yes        | No              |
@@ -73,7 +73,6 @@ The following table outlines when an authentication method can be used during a 
 | Voice call                     | No                     | MFA and SSPR              |
 | Password                       | Yes                    |                           |
 
-> \* Windows Hello for Business, by itself, does not serve as a step-up MFA credential. For example, an MFA Challenge from Sign-in Frequency or SAML Request containing forceAuthn=true. Windows Hello for Business can serve as a step-up MFA credential by being used in FIDO2 authentication. This requires users to be enabled for FIDO2 authentication to work successfully.
 
 All of these authentication methods can be configured in the Azure portal, and increasingly using the [Microsoft Graph REST API](/graph/api/resources/authenticationmethods-overview).
 
